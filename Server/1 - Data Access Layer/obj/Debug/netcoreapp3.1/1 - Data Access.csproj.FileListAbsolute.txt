@@ -1,0 +1,28 @@
+E:\GitHub\game4kids\Server\1 - Data Access Layer\bin\Debug\netcoreapp3.1\1 - Data Access.deps.json
+E:\GitHub\game4kids\Server\1 - Data Access Layer\bin\Debug\netcoreapp3.1\1 - Data Access.runtimeconfig.json
+E:\GitHub\game4kids\Server\1 - Data Access Layer\bin\Debug\netcoreapp3.1\1 - Data Access.runtimeconfig.dev.json
+E:\GitHub\game4kids\Server\1 - Data Access Layer\bin\Debug\netcoreapp3.1\1 - Data Access.dll
+E:\GitHub\game4kids\Server\1 - Data Access Layer\bin\Debug\netcoreapp3.1\1 - Data Access.pdb
+E:\GitHub\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.csproj.AssemblyReference.cache
+E:\GitHub\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.AssemblyInfoInputs.cache
+E:\GitHub\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.AssemblyInfo.cs
+E:\GitHub\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.csproj.CoreCompileInputs.cache
+E:\GitHub\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs
+E:\GitHub\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.dll
+E:\GitHub\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.pdb
+E:\GitHub\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.genruntimeconfig.cache
+D:\Projects\game4kids\Server\1 - Data Access Layer\bin\Debug\netcoreapp3.1\1 - Data Access.deps.json
+D:\Projects\game4kids\Server\1 - Data Access Layer\bin\Debug\netcoreapp3.1\1 - Data Access.runtimeconfig.json
+D:\Projects\game4kids\Server\1 - Data Access Layer\bin\Debug\netcoreapp3.1\1 - Data Access.runtimeconfig.dev.json
+D:\Projects\game4kids\Server\1 - Data Access Layer\bin\Debug\netcoreapp3.1\1 - Data Access.dll
+D:\Projects\game4kids\Server\1 - Data Access Layer\bin\Debug\netcoreapp3.1\1 - Data Access.pdb
+D:\Projects\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.AssemblyInfoInputs.cache
+D:\Projects\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.AssemblyInfo.cs
+D:\Projects\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.csproj.CoreCompileInputs.cache
+D:\Projects\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs
+D:\Projects\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.dll
+D:\Projects\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.pdb
+D:\Projects\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.genruntimeconfig.cache
+D:\Projects\game4kids\Server\1 - Data Access Layer\obj\Debug\netcoreapp3.1\1 - Data Access.csproj.AssemblyReference.cache
