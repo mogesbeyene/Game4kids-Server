@@ -1,0 +1,65 @@
+CREATE DATABASE Games4Kids
+GO
+USE Games4Kids
+GO
+--DROP TABLE PlayerRecords
+--DROP TABLE MatchRecord
+--DROP TABLE Ranks
+--DROP TABLE GameSettings
+--DROP TABLE Users
+
+CREATE TABLE Users
+(
+	UserID INT NOT NULL IDENTITY(1,1),
+	UserRole INT NOT NULL DEFAULT(0),
+	Nickname NVARCHAR(30) NOT NULL UNIQUE,
+	Email NVARCHAR(40) NOT NULL,
+	CreationDate DATETIME NOT NULL DEFAULT GETDATE(),
+	Password NVARCHAR(20) NOT NULL CHECK (LEN(Password)>=6),
+	ParentPin NVARCHAR(6) NOT NULL CHECK (LEN(ParentPin)=6),
+	CONSTRAINT users_pk PRIMARY KEY (UserID)
+);
+
+
+CREATE TABLE GameSettings 
+(
+	SettingsID INT NOT NULL IDENTITY(1,1),
+	GameID INT NOT NULL ,
+	UserID INT NOT NULL ,
+	Music BIT DEFAULT(1),
+	SoundEffect BIT DEFAULT(1),
+	Difficulty INT NOT NULL DEFAULT(1),
+	LimitTime INT NOT NULL DEFAULT(24),
+	CONSTRAINT settings_pk PRIMARY KEY (SettingsID),
+	CONSTRAINT settings_users_fk FOREIGN KEY(UserID) REFERENCES Users(UserID)
+);
+
+
+CREATE TABLE Ranks  
+(
+	RankID INT NOT NULL IDENTITY(1,1),
+	RankName NVARCHAR(30) NOT NULL,
+	NextLevelPoints NVARCHAR(9) NOT NULL
+	--CONSTRAINT rank_pk PRIMARY KEY (RankID)
+);
+
+
+CREATE TABLE MatchRecord
+(
+	RecordID INT NOT NULL IDENTITY(1,1),
+	UserID INT NOT NULL,
+	GameType INT NOT NULL , 
+	RecordDate DATETIME NOT NULL DEFAULT GETDATE(),
+	Points NVARCHAR(9),
+	CONSTRAINT record_pk PRIMARY KEY (RecordID),
+	CONSTRAINT matchRecord_users_fk FOREIGN KEY(UserID) REFERENCES Users(UserID)
+);
+
+
+CREATE TABLE PlayerRecords
+(
+	UserID INT NOT NULL,
+	TotalPoints NVARCHAR(9),
+	CurrentRank NVARCHAR(30),
+	CONSTRAINT PlayerRecords_users_fk FOREIGN KEY(UserID) REFERENCES Users(UserID)
+);
